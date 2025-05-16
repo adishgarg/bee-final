@@ -24,6 +24,7 @@ export default function MensShopPage() {
   }, []);
 
 return (
+  <div className="pt-20 px-6">
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products
             .filter((product) => product.category === "female")
@@ -37,6 +38,7 @@ return (
                     onAddToCart={() => console.log(`Added ${product.name} to cart`)}
                 />
             ))}
+    </div>
     </div>
 );
 }
