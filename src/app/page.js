@@ -76,7 +76,7 @@ export default function Home() {
       <div className="product">
         <img src="/assets/men/mensaparel.webp" alt="" width="30%" height="30%" />
         <div className="product-hover">
-          <a href="./src/shop.html">
+          <a href="/shop/mens">
             <div className="text">Men's apparel</div>
           </a>
         </div>
@@ -85,17 +85,8 @@ export default function Home() {
       <div className="product">
         <img src="/assets/women-apparel.jpg" alt="" width="30%" height="30%" />
         <div className="product-hover">
-          <a href="./src/womens.html">
+          <a href="/shop/womens">
             <div className="text">Women's apparel</div>
-          </a>
-        </div>
-      </div>
-
-      <div className="product">
-        <img src="/assets/sneakers2.jpg" alt="" />
-        <div className="product-hover">
-          <a href="./src/sneaker.html">
-            <div className="text">Sneakers</div>
           </a>
         </div>
       </div>
