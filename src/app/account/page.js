@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
-import { uploadRouter } from "@/app/api/uploadthing/route";
 import UploadButton from "@/components/uploadbutton";
 
 export default function AccountPage() {
